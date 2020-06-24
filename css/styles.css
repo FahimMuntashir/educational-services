@@ -529,6 +529,19 @@ body {
     color: #635551;
     content: "/";
   }
+
+  #software-overview{
+      z-index: 1;
+      position: relative;
+      margin-top: 150px;
+  }
+  .wittyTitle{
+      color: #721104;
+  }
+
+
+
+  
   
   /*--------------------------------------------------------------
   # Why Us
@@ -537,10 +550,30 @@ body {
     padding: 0 0 30px 0;
     position: relative;
     z-index: 3;
+    background-image: url(../images/hero-bg.jpg);
+    clip-path: polygon(100% 16%, 100% 84%, 0 100%, 0 34%);
+    height: 120vh;
   }
-  
+
+
+  #price-sec{
+      background-color: #FF5821;
+      clip-path: polygon(100% 16%, 100% 84%, 0 100%, 0 34%);
+    }
+
+  .price-wrap{
+      text-align: center    ;
+      margin-top: 50px;
+      color:white;
+  }
+  .price-button{
+     margin-top: 40px;
+  }
+
+
   .why-us .content {
     padding: 30px;
+    padding-top: 30rem;
     background: #ff5821;
     border-radius: 4px;
     color: #fff;
